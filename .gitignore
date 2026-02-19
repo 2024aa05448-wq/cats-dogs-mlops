@@ -218,3 +218,17 @@ __pycache__/
 mlruns/
 mlflow/
 
+# Documents & Images
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.docx
+*.pptx
+
+# Assignment files (optional, if you want to exclude)
+*.pdf
+MLOPS_Assignment*.pdf
