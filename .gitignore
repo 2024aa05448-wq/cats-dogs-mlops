@@ -228,6 +228,7 @@ mlflow/
 *.tiff
 *.docx
 *.pptx
+*.txt
 
 # Assignment files (optional, if you want to exclude)
 *.pdf
