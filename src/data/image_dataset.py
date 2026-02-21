@@ -53,7 +53,7 @@ def preprocess_dataset(data_dir):
                     if os.path.exists(img_path):
                         os.remove(img_path)
     
-    print(f"✅ Preprocessed: {cleaned} valid 224x224 images")
+    print(f"Preprocessed: {cleaned} valid 224x224 images")
     return True
 
 def get_dataloaders(data_dir, batch_size=32, num_workers=0):  # Windows CPU safe
@@ -87,7 +87,7 @@ def get_dataloaders(data_dir, batch_size=32, num_workers=0):  # Windows CPU safe
             dataset, batch_size=batch_size, shuffle=(split == 'train'),
             num_workers=num_workers, pin_memory=True  # CPU safe
         )
-    print(f"✅ Strong DataLoaders: batch={batch_size}, workers={num_workers}")
+    print(f"Strong DataLoaders: batch={batch_size}, workers={num_workers}")
     return dataloaders
 
 # Usage:
